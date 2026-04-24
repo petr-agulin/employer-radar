@@ -130,14 +130,20 @@ The system is LLM-agnostic. Models are configured inside n8n nodes and can be re
 
 ---
 
-## Live demo
+## Live demo & screenshots
 
 > Note: My system runs fully on free-tier infrastructure. Responses typically take 30–240 seconds, depending on the LLM model and input query. Occasional unavailability can happen due to LLM rate limits.
 
 - **Telegram Bot:** https://t.me/EmployerRadarBot 
-- **Demo video:** [Early-stage preview](https://youtube.com/shorts/NBY-KUTxT3A?feature=share) *(to be updated)*
-
----
+- **Demo video:** [YouTube](https://www.youtube.com/watch?v=nprC_gGGYNU)
+- **Screenshots:**
+<img width="1748" height="530" alt="Main flow" src="https://github.com/user-attachments/assets/2390014c-94e1-443b-84a7-a6c036d91050" />
+...
+<img width="1136" height="688" alt="AI Agent Synthesis" src="https://github.com/user-attachments/assets/a7e85e30-3724-4317-abd9-2fa1c789c58e" />
+...
+<img width="850" height="594" alt="TelegramStartBot" src="https://github.com/user-attachments/assets/84449515-a0af-4d37-a34e-4cdac355165b" />
+...
+<img width="478" height="1083" alt="TelegramResultMessage" src="https://github.com/user-attachments/assets/22e57337-3135-44d9-bb69-2e2285af1de9" />
 
 ## Reproducing this project
 
@@ -179,6 +185,6 @@ CREATE TABLE evidence (
 
 ## About
 
-Built by [Petr Agulin](https://github.com/petr-agulin) as a portfolio project exploring agent orchestration, LLM integration, and AI workflow design. Developed iteratively with Claude (Anthropic) as a coding and architecture thinking partner (Sonnet 4.5, Sonnet 4.6, but mostly with Opus 4.5 and Opus 4.7) in about 10 days, working late evenings and weekends. 
+Built by [Petr Agulin](https://github.com/petr-agulin) as a portfolio project exploring agent orchestration, LLM integration, and AI workflow design. Developed iteratively with Claude (Anthropic) as a coding and architecture thinking partner (Sonnet 4.5, Sonnet 4.6, but mostly with Opus 4.6 and Opus 4.7) in about 10 days, working late evenings and weekends. 
 
 The original goal: take a real problem (company research for job seekers), build something that actually works, and learn through the process.
